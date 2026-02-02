@@ -1,0 +1,19 @@
+---
+title: "Juarez, Kathleen - Assgn 2"
+format: html
+editor: visual
+---
+
+## testing
+
+```{r}
+2=2 
+```
+
+
+hello 
+
+hello
+
+
+ hello
