@@ -1,16 +1,36 @@
 ---
 title: "Juarez, Kathleen-M02-In-depth Literate Programming"
 date: '`r format(Sys.time())`'
-format: 
-  html: 
-    toc: true
-    toc-depth: 4
-    number-sections: false
-    code-link: true
-    embed-resources: true
+format:
+  html:
+    theme: litera
+    font-family: sans-serif;
+    font-size: 110%;
 editor: visual
-execute: 
-  freeze: auto
+toc: true
+toc-title: Contents
+toc-location: left
+#toc-expand: 2
+number-sections: true
+number-depth: 2
+smooth-scroll: true	
+tabsets: true #enable tabsets to present content
+embed-resources: true #create self-contained html
+anchor-sections: true #hover over a section title to see an anchor link
+citations-hover: true #Enable a hover popup that shows the reference information
+df-print: kable
+code-fold: true #collapse all code blocks
+code-tools: true #toggle code blocks on and off globally
+code-link: true	#link functions to their online documentation, downlit and xml2 package required
+code-overflow: wrap #long code scroll or wrap
+code-block-bg: true
+code-block-border-left: "#31BAE9"
+highlight-style: pygments
+execute:
+  warning: false
+  message: false
+comments:
+  hypothesis: true
 ---
 
 # 1. Summarize the instructor's lecture about Quarto that you found impressive. Do you see yourself using Quarto every day for your job or studies, such as taking notes in class or preparing a presentation? More eye-catching effects will be introduced in later modules.
