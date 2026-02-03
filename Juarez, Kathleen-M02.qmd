@@ -3,7 +3,9 @@ title: "Juarez, Kathleen-M02-In-depth Literate Programming"
 date: '`r format(Sys.time())`'
 format:
   html:
-    theme: litera
+    theme:
+      - litera
+      - custom-theme.scss
     font-family: sans-serif;
     font-size: 110%;
 editor: visual
@@ -77,4 +79,8 @@ ROAS is the highest among demand harvesting efforts at 2260%. We can hire a seco
 
 ::: aside
 this is an aside
+:::
+
+::: aside
+open and close LaTex with a dollar sign $5 < \beta_1 < 7$ . Backslash escape for greek letters
 :::
