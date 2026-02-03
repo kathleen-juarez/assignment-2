@@ -33,6 +33,7 @@ execute:
   message: false
 comments:
   hypothesis: true
+
 ---
 
 ```{r}
@@ -45,6 +46,7 @@ library(xml2)
 ```
 
 # 1. Summarize the instructor's lecture about Quarto that you found impressive. Do you see yourself using Quarto every day for your job or studies, such as taking notes in class or preparing a presentation? More eye-catching effects will be introduced in later modules.
+
 
 -   I was very impressed with all that Quarto could do. I am familiar with Quarto due to using it in other classes. I enjoy the visual mode because it makes it easy to format text and input images. However I didn't realize that there was so much more to Quarto beyond just ease of use. For instance, I was not aware that I can publish a Quarto document directly to the internet. I feel like that opens up so many options for me and I am looking forward to creating an online resume/portflio website using Quarto.
 
@@ -83,4 +85,17 @@ this is an aside
 
 ::: aside
 open and close LaTex with a dollar sign $5 < \beta_1 < 7$ . Backslash escape for greek letters
+:::
+
+::: {.big-text}
+This is big text
+:::
+
+::: {layout-ncol=2}
+This 
+
+
+
+
+and That
 :::
