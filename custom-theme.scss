@@ -1,0 +1,82 @@
+/*-- scss:defaults --*/
+
+// SCSS Variables for Cal Poly Pomona Branding
+$cpp-green: #00693D;
+$cpp-gold:  #FFB81C;
+
+// Secondary Colors
+$avocado:   #A6CE6E;
+$citrus:    #FF7F00;
+$white:     #FFFFFF;
+$teal:      #00838A;
+$bay-brown: #BCBAB8;
+$black:     #121212;
+$rose:      #E5A3A6;
+$eggshell:  #E2E8E0;
+
+$body-bg: $eggshell;
+
+// Typography
+$font-primary: Arial, sans-serif;
+$font-secondary: Georgia, serif;
+$font-body: Arial, sans-serif;
+
+//Functions
+@function fancy-gradient($base-color: $avocado, $angle: 90deg) {
+  // Generate a gradient from lighten(...) to darken(...)
+  @return linear-gradient(
+    $angle,
+    darken($base-color, 20%),
+    lighten($base-color, 20%),
+  );
+}
+
+// 2. Create a text-specific utility class
+.gradient-text {
+  // Use the fancy-gradient function
+  background: fancy-gradient(#3C8DAD, 135deg);
+
+  /* The magic: force the text to use the background as its “color” */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* For other browsers: */
+  background-clip: text; /* Not universally supported, but good practice */
+}
+
+
+// Highlight class
+.highlight {
+  background-color: $citrus; 
+  color: $white;
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
+}
+
+// A custom div
+.my-custom-div {
+  border: 2px solid $cpp-gold;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+//Text with color
+.red-text {
+  color: red;
+  font-size: 30px;
+}
+
+/* Override Bootstrap table styling */
+.table {
+  border: 2px solid #333;
+  border-collapse: collapse;
+  
+  th, td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Change the header background */
+  thead {
+    background-color: #f7f7f7;
+  }
+}
