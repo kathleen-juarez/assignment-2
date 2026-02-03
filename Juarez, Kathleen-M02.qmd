@@ -30,3 +30,7 @@ In this video, that you need to change the YAML in Quarto to change the output. 
 # 3. Choose a previous class assignment in which you wrote a couple of pages. Copy it into Quarto and style it to make it nice
 
 # 4. Publish this assignment document in an HTML file to Quarto Pub
+
+#testing
+
+# testing
