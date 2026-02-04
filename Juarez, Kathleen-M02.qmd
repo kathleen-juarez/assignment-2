@@ -64,10 +64,7 @@ In this video, that you need to change the YAML in Quarto to change the output. 
 
 # 4. Publish this assignment document in an HTML file to Quarto Pub
 
-#testing
-
-# testing
-
+# Create Tabsets
 
 ::: panel-tabset
 ## Demand Generation
@@ -79,6 +76,8 @@ ROAS is positive yet on the lower end at 200%. It wouldn't make sense to hire a 
 ROAS is the highest among demand harvesting efforts at 2260%. We can hire a second SEO specialist with 10000 USD who will focus solely on Demand Harvesting and produce and optimize more content, increase rankings and the number of keywords we are focusing on.
 :::
 
+# Create an Aside
+
 ::: aside
 this is an aside
 :::
@@ -87,9 +86,9 @@ this is an aside
 open and close LaTex with a dollar sign $5 < \beta_1 < 7$ . Backslash escape for greek letters
 :::
 
-::: {.big-text}
-This is big text
-:::
+
+
+# Create Columns
 
 ::: {layout-ncol=2}
 This 
@@ -98,4 +97,12 @@ This
 
 
 and That
+:::
+
+# Multitabset
+
+::: {.panel-tabset}
+## This
+## and That 
+## and also this
 :::
