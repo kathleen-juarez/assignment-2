@@ -13,7 +13,7 @@ toc: true
 toc-title: Contents
 toc-location: left
 #toc-expand: 2
-number-sections: true
+number-sections: false
 number-depth: 2
 smooth-scroll: true	
 tabsets: true #enable tabsets to present content
@@ -33,7 +33,6 @@ execute:
   message: false
 comments:
   hypothesis: true
-
 ---
 
 ```{r}
@@ -47,7 +46,6 @@ library(xml2)
 
 # 1. Summarize the instructor's lecture about Quarto that you found impressive. Do you see yourself using Quarto every day for your job or studies, such as taking notes in class or preparing a presentation? More eye-catching effects will be introduced in later modules.
 
-
 -   I was very impressed with all that Quarto could do. I am familiar with Quarto due to using it in other classes. I enjoy the visual mode because it makes it easy to format text and input images. However I didn't realize that there was so much more to Quarto beyond just ease of use. For instance, I was not aware that I can publish a Quarto document directly to the internet. I feel like that opens up so many options for me and I am looking forward to creating an online resume/portflio website using Quarto.
 
 ::: {.callout-note collapse="true"}
@@ -60,11 +58,9 @@ This is a call out. It is one of my favorite features of Quarto, and I love that
 
 In this video, that you need to change the YAML in Quarto to change the output. Converting a Quarto doc to render to pdf is as simple as changing the designation in the YAML.
 
-# 3. Choose a previous class assignment in which you wrote a couple of pages. Copy it into Quarto and style it to make it nice
+## Some things I learned from the video:
 
-# 4. Publish this assignment document in an HTML file to Quarto Pub
-
-# Create Tabsets
+### Create Tabsets
 
 ::: panel-tabset
 ## Demand Generation
@@ -76,7 +72,7 @@ ROAS is positive yet on the lower end at 200%. It wouldn't make sense to hire a 
 ROAS is the highest among demand harvesting efforts at 2260%. We can hire a second SEO specialist with 10000 USD who will focus solely on Demand Harvesting and produce and optimize more content, increase rankings and the number of keywords we are focusing on.
 :::
 
-# Create an Aside
+### Create an Aside
 
 ::: aside
 this is an aside
@@ -86,23 +82,46 @@ this is an aside
 open and close LaTex with a dollar sign $5 < \beta_1 < 7$ . Backslash escape for greek letters
 :::
 
+### Create Columns
 
-
-# Create Columns
-
-::: {layout-ncol=2}
-This 
-
-
-
+::: {layout-ncol="2"}
+This
 
 and That
 :::
 
-# Multitabset
+### Multitabset
 
-::: {.panel-tabset}
+::: panel-tabset
 ## This
-## and That 
+
+## and That
+
 ## and also this
 :::
+
+# 3. Choose a previous class assignment in which you wrote a couple of pages. Copy it into Quarto and style it to make it nice.
+
+## Competitive Analysis for photorealistic 3D printed figurines
+
+Because firms in photorealistic 3D-printed figurines are privately held and their financials are undisclosed, market share estimates must be modeled using observable indicators and known benchmarks. Using the revenue of ME in 3D (≈ \$200,000 annually) as a reference point, and assuming a global niche market size of approximately \$50 million and market share was estimated using qualitative and quantitative indicators including website visibility, operating footprint, product mix, and distribution model. 
+
+A global market value of approximately \$50 million was adopted based on prior industry segmentation estimates. These market share and revenue estimates were derived using a benchmarking approach based on observable business characteristics and a realistic estimate of total niche market size. Competitor firms’ revenue was estimated using indicators such as product pricing, geographic footprint, distribution model, online visibility, and known benchmarks from comparable firms, including MEin3D’s reported annual revenue of roughly \$200,000. 
+
+Larger firms such as My3DSelfie and Shrunk3D were allocated higher shares due to greater scale, broader product offerings, and expansive online or multi-location presence. Smaller, boutique providers were assigned smaller shares consistent with limited reach and lower online presence.  
+
+The resulting figures represent informed analytical estimates rather than audited financial data and should be interpreted as approximate indicators of market structure and relative competitive positioning.
+
+|                  |                      |                    |
+|------------------|----------------------|--------------------|
+| Company          | Estimated Share [^1] | Estimated Revenue  |
+| My3DSelfie       | 15–25%               | \$7.5–\$12.5M      |
+| Shrunk3D         | 8–15%                | \$4–\$7.5M         |
+| ME in 3D         | 0.3–0.6%             | \$150–\$300K       |
+| Humano3D         | 0.3–0.6%             | \$150–\$300K       |
+| Shapify          | \<2%                 | \<\$1M             |
+| All Other Firms  | 55–70%               | \$27.5–\$35M       |
+
+[^1]: Based on \$50 million global market assumption
+
+# 4. Publish this assignment document in an HTML file to Quarto Pub
